@@ -1,0 +1,15 @@
+@import "preset";
+@import "src/scss/custom-theme.scss";
+
+/* Standard-Styles für das Logo */
+.navbar-brand {
+    display: block; /* Standardanzeige */
+  }
+  
+  /* Media Query für die mobile Ansicht */
+  @media (max-width: 767px) {
+    .navbar-brand {
+      display: none; /* Logo in der mobilen Ansicht ausblenden */
+    }
+  }
+
